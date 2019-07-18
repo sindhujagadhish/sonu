@@ -1,0 +1,155 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.head1{
+	margin-top:30px;
+	width:165px;
+	height:50px;
+	background-color:#990033;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	text-align: center;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+    float:right;
+    
+}
+
+.cardHeader {
+	margin-top:50px;
+	width:160px;
+	height:30px;
+	background-color:#990033;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	text-align: center;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.cardbody {
+	margin-top:20px;
+	width:165px;
+	height:90px;
+	background-color:#778AC3;
+	text-align: center;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	float:right;
+	margin-left:100%;
+	
+}
+.content {
+	display: flex;
+	width: 100%;
+}
+
+.contentLeft {
+	width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 425px){
+	.contentLeft {
+		width: 100%;
+	    display: flex;
+	    flex-direction: column;
+	    justify-content: center;
+	    align-items: center;
+	}
+}
+.cardBody {
+	margin-top: 5px;
+	width:160px;
+	height:90px;
+	background-color:#000066;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	text-align: center;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+.header
+{
+	background-color:pink;
+	width:100%;
+	text-align:center;
+	font-size: 30px;
+	display: flex;
+    justify-content: center;
+    font-size: x-large;
+}
+
+h1 {
+	    margin-top: 5px !important;
+}
+
+@media (max-width : 425px){
+	.cardHeader {
+		    width: 80px !important;//override.
+    		height: 40px !important;
+	}
+	.cardBody {
+	        margin-top: 5px !important;
+		    width: 800px !important;
+		    height: 102px !important;
+    }
+}
+
+.card1 {
+	display: flex;
+    justify-content: center;
+}
+.row {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 100%;
+}
+
+.column {
+	display: flex;
+	flex-direction: column;
+	flex-basis: 100%;
+	flex:1;
+}
+.box{
+position:absolute;
+display: flex;
+justify-content: center;
+margin-top:30px;
+}
+.footer
+{
+background-color:pink;
+	height:40px;
+	width:100%;
+	text-align:center;
+	font-size: 30px;
+	margin-top:320px;
+}
